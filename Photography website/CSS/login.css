@@ -1,0 +1,33 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-image: url(photography-768534_1920.jpg);  
+    font-family: 'Arial';  
+}  
+
+h3{  
+    text-align: center;  
+    color: rgb(35, 13, 56);  
+    padding: 15px; 
+    font-size: 35px; 
+}   
+
+form{
+       width: 60%;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background-image: linear-gradient(rgb(107, 191, 224),rgb(233, 152, 166),grey,rgb(112, 204, 75));  
+        border-radius: 15px ;  
+        opacity: 0.9;
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        font-weight: 700;
+}
+
+a:hover,button:hover{
+  background-color:seagreen;
+  color: white;
+}

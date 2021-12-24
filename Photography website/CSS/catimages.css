@@ -1,0 +1,30 @@
+.images{
+    display: flex;
+    justify-content: 
+	space-evenly;
+    flex-wrap: wrap;
+	
+}
+img{ width: 30%;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+}
+img:hover{
+	margin: 5px;
+    padding: 1px;
+}
+
+body{
+	 background-image: linear-gradient(khaki,skyblue,rgb(233, 152, 166),grey,rgb(112, 204, 75));  
+}
+
+h1{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    text-shadow: 2px 2px lawngreen;
+}

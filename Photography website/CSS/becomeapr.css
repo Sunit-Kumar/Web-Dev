@@ -1,0 +1,119 @@
+body{
+    padding: 10px;
+    bottom: 20px;
+  }
+  
+nav a{
+color:grey;
+text-decoration: none;
+display: inline-block;
+font-weight: 600;
+}
+nav a:hover{
+background-color: #000;
+color:#fff;
+padding:3px;
+border-radius: 2px;
+}
+span a{
+color:grey;
+padding:3px;
+border-radius: 2px;
+}
+span a:hover{
+background-color:#000;
+color:grey;
+padding:3px;
+border-radius: 2px;
+}
+nav li{
+list-style: none;
+display:inline-block;
+padding:0 10px;
+}
+nav{
+padding:10px 0;
+position:fixed;
+width:100%;
+backdrop-filter: blur(10px);
+z-index: 1;
+color:#000;
+font-size: 20px;
+}
+.Right-sided{
+float: right;
+padding-right: 20px;
+}
+.Left-Sided{
+float:left;
+padding-left: 20px;
+}
+.image1{
+float: left;
+width: 42%;
+height: fit-content;
+padding: 20px;
+}
+.first{
+padding: 5px;
+position: relative;
+top: 90px;
+}
+button{
+background-color: rgb(173, 46, 68);
+color: #ddd;
+padding: 10px;
+font-size: 20px;
+border: none;
+border-radius: 10px;
+}
+.steps{
+padding: 20px;
+position: relative;
+top: 220px;
+}
+h1{
+text-align: center;
+font-size: 35px;
+color: rgb(89, 219, 37);
+}
+p{
+font-size: 20px;
+font-family: cursive;
+}
+li h2{
+color: rgb(214, 29, 100);
+}
+li p{
+color: grey;
+}
+ul img{
+float: right;
+width: 50%;
+border-radius: 10px;
+}
+li{
+list-style: none;
+}
+.conclusion{
+top:200px;
+position: relative;
+}
+.resources,.earn{
+top:200px;
+position: relative;
+}
+.resources a{
+text-decoration: none;
+font-size: 20px;
+padding: 5px;
+}
+.earn li{
+  font-size: 25px;
+  color: rgb(70, 67, 67);
+  text-align: center;
+}
+button:hover,.resources a:hover{
+opacity: 0.9;
+color: rgb(34, 192, 231);
+}
